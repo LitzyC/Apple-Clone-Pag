@@ -1,0 +1,197 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    background-color: #272729;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0% 20%;
+    height: 10%;
+    position: fixed;
+}
+
+.navbar-link {
+    color: #cecece;
+    padding: 0px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.030em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.navbar-link:hover {
+    color: #ffffff;
+}
+
+.navbar-button {
+    padding: 0px 10px;
+    cursor: pointer;
+    width: 1.4vw;
+}
+
+.banner-unicef {
+    position: static;
+    margin-top: 64px;
+    background-color: #f1f1f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+.logo-unicef {
+    width: 10%;
+}
+
+.link {
+    
+    font-size: 17;
+    padding: 0.8vw;
+    color: #06c;
+    text-decoration: none;
+}
+
+#macbook-air-banner {
+    background-color: #fbfbfd;
+    background-image: url("../images/apple_images/hero_macbookair__el7scava26mq_small.png");
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-position-y: 85%;
+    background-size: 1900px 990px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20% 10%;
+    height: 5%;
+    display: flex;
+}
+
+.macbook-air {
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 30vw;
+    
+}
+
+.information-buy-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.headline {
+    font-size: 60px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    margin: 1.2vh;
+}
+
+/*#text-macbook-air {
+    width: 50%;
+}*/
+
+#iphone-13-banner {
+    background-color: #fbfbfd;
+    background-image: url("../images/apple_images/hero_iphone13_avail__gnqqkzuai6um_largetall.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-y: top;
+    background-size: 2000px 500px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    margin: 1.5vh 0;
+}
+
+.iphone-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 6vw;
+}
+
+#iphone-13-subtitulo {
+    font-size: 25px;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: 0.009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;   
+}
+
+.mac-banner {
+    background-color: #f5f5fa;
+    background-image: url("../images/apple_images/hero_bts__bcuslanw39xe_largetall.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-y: 10px;
+    background-size: 2300px 570px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    margin: 1.5px 0;
+}
+
+.mac {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3vw;
+    padding-top: 20px;
+}
+
+#mac-subtitulado{
+    margin-top: -25px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#headline-mac{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+span{
+    color: #ca2166;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+.cards{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer {
+    border: 1px solid red;
+}
