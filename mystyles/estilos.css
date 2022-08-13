@@ -199,8 +199,9 @@ span{
     background-image: url("../images/apple_images/promo_iphone13pro_avail__beadms4ldidu_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 49%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
 }
 
@@ -208,11 +209,16 @@ span{
     border: 1px solid rgb(255, 111, 0);
     background-image: url("../images/apple_images/promo_mbp13__buwssod6c8vm_medium.jpg");
     background-repeat: no-repeat;
+    background-position: 40px;
     color: white;
     background-color: #000000;
     width: 48.3%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
+}
+
+h2{
+    color:white;
 }
 
 .watch {
@@ -220,8 +226,9 @@ span{
     background-image: url("../images/apple_images/promo_watch_lte__djeaso7ukrsm_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 49%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
 }
 
@@ -230,8 +237,9 @@ span{
     background-image: url("../images/apple_images/hero_bts__bcuslanw39xe_largetall.jpeg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 48.3%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
 
 }
@@ -241,8 +249,9 @@ span{
     background-image: url("../images/apple_images/tile__cauwwcyyn9hy_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 49%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
 }
 
@@ -251,10 +260,32 @@ span{
     background-image: url("../images/apple_images/tile_airpods_cauwwcyyn9hy_large.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
+    background-position: 180px;
+    background-position-y: 190px;
     color: white;
     width: 48.3%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
+}
+
+.subtitulado-card{
+    margin-top: 5px;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 400;
+        letter-spacing: .009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        color: #1d1d1f;
+        text-align: center;
+        display: block;
+        position: relative;
+        
+}
+
+.information-buy-links-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 footer {
