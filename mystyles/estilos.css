@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    display:flex;
+    display: flex;
     flex-direction: row;
     background-color: #272729;
     align-items: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .link {
-    
+
     font-size: 17;
     padding: 0.8vw;
     color: #06c;
@@ -77,7 +77,7 @@ body {
     display: inline-flex;
     flex-direction: column;
     padding-right: 30vw;
-    
+
 }
 
 .information-buy-links {
@@ -86,18 +86,15 @@ body {
 }
 
 .headline {
-    font-size: 60px;
+    font-size: 48px;
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -0.002em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-align: center;
     margin: 1.2vh;
+    color: #1d1d1f;
 }
-
-/*#text-macbook-air {
-    width: 50%;
-}*/
 
 #iphone-13-banner {
     background-color: #fbfbfd;
@@ -125,7 +122,7 @@ body {
     line-height: 0px;
     text-align: center;
     letter-spacing: 0.009em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;   
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .mac-banner {
@@ -150,10 +147,10 @@ body {
     padding-top: 20px;
 }
 
-#mac-subtitulado{
+#mac-subtitulado {
     margin-top: -25px;
     margin-bottom: 5px;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 1.16667;
     font-weight: 400;
     letter-spacing: .009em;
@@ -167,7 +164,7 @@ body {
     position: relative;
 }
 
-#headline-mac{
+#headline-mac {
     font-size: 48px;
     line-height: 1.08349;
     font-weight: 600;
@@ -175,10 +172,10 @@ body {
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-style: italic;
     font-weight: bold;
-    
+
 }
 
-span{
+span {
     color: #ca2166;
 }
 
@@ -187,32 +184,62 @@ span{
     height: 100%;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 5px;
 }
 
-.iphone13pro{
-    border: 1px solid rgb(204, 255, 0);
+.headline-card{
+    font-size: 42px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    margin: 1.2vh;
+}
+
+.subtitulado-card {
+    margin-top: 4px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    position: relative;
+
+}
+
+.iphone13pro {
     background-image: url("../images/apple_images/promo_iphone13pro_avail__beadms4ldidu_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 60px;
     width: 49%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
 }
 
-.macbookpro{
+.macbookpro {
     border: 1px solid rgb(255, 111, 0);
     background-image: url("../images/apple_images/promo_mbp13__buwssod6c8vm_medium.jpg");
     background-repeat: no-repeat;
+    background-position: 40px;
     color: white;
     background-color: #000000;
     width: 48.3%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
+}
+
+#macbookpro1{
+    justify-content: center;
+    margin-left: 33%;
 }
 
 .watch {
@@ -220,9 +247,24 @@ span{
     background-image: url("../images/apple_images/promo_watch_lte__djeaso7ukrsm_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 49%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
+}
+
+#watch1{
+    justify-content: center;
+    margin-left: 38%;
+}
+
+.sublinecard{
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
 }
 
 .iPadair {
@@ -230,8 +272,9 @@ span{
     background-image: url("../images/apple_images/hero_bts__bcuslanw39xe_largetall.jpeg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 48.3%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
 
 }
@@ -241,9 +284,15 @@ span{
     background-image: url("../images/apple_images/tile__cauwwcyyn9hy_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+    background-position: 40px;
     width: 49%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
+}
+
+#card1{
+    justify-content: center;
+    margin-left: 40%;
 }
 
 .airpods-pro {
@@ -251,10 +300,19 @@ span{
     background-image: url("../images/apple_images/tile_airpods_cauwwcyyn9hy_large.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
+    background-position: 180px;
+    background-position-y: 190px;
     color: white;
     width: 48.3%;
-    height: 500px;
+    height: 600px;
     margin: 5px;
+}
+
+.information-buy-links-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 17px;
 }
 
 footer {
