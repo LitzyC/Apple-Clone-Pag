@@ -220,7 +220,11 @@ span {
     background-image: url("../images/apple_images/promo_iphone13pro_avail__beadms4ldidu_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+<<<<<<< HEAD
     background-position: 60px;
+=======
+    background-position: 40px;
+>>>>>>> 8ba7246713aab57fdffd13769e5f999f672d9982
     width: 49%;
     height: 600px;
     margin: 5px;
@@ -237,9 +241,14 @@ span {
     margin: 5px;
 }
 
+<<<<<<< HEAD
 #macbookpro1{
     justify-content: center;
     margin-left: 33%;
+=======
+h2{
+    color:white;
+>>>>>>> 8ba7246713aab57fdffd13769e5f999f672d9982
 }
 
 .watch {
@@ -281,8 +290,12 @@ span {
     background-image: url("../images/apple_images/promo_ipadair_avail__ferd4bfpcdm6_medium.jpg");
     background-repeat: no-repeat;
     background-color: #fbfbfd;
+<<<<<<< HEAD
     background-size: 100%;
     background-position: 50%;
+=======
+    background-position: 40px;
+>>>>>>> 8ba7246713aab57fdffd13769e5f999f672d9982
     width: 48.3%;
     height: 600px;
     margin: 5px;
@@ -316,17 +329,39 @@ span {
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: 180px;
+<<<<<<< HEAD
     background-position-y: 210px;
+=======
+    background-position-y: 190px;
+>>>>>>> 8ba7246713aab57fdffd13769e5f999f672d9982
     color: white;
     width: 48.3%;
     height: 600px;
     margin: 5px;
 }
 
+<<<<<<< HEAD
+=======
+.subtitulado-card{
+    margin-top: 5px;
+        font-size: 24px;
+        line-height: 1.16667;
+        font-weight: 400;
+        letter-spacing: .009em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        color: #1d1d1f;
+        text-align: center;
+        display: block;
+        position: relative;
+        
+}
+
+>>>>>>> 8ba7246713aab57fdffd13769e5f999f672d9982
 .information-buy-links-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
+<<<<<<< HEAD
     font-size: 17px;
     text-decoration: none;
 }
@@ -361,4 +396,10 @@ span {
 a{
     text-decoration: none;
     color: #000000;
+=======
+}
+
+footer {
+    border: 1px solid red;
+>>>>>>> 8ba7246713aab57fdffd13769e5f999f672d9982
 }
